@@ -53,6 +53,7 @@ OSPRAY_CREATE_LIBRARY(ospray_module_tubes
   moduleInit.cpp
   
   # this depends on ospray core:
-  LINK
-  ospray
+  #LINK
+  #ospray
 )
+target_link_libraries(ospray_module_tubes PUBLIC ospray_module_ispc)

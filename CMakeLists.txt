@@ -40,8 +40,8 @@ IF (OSPRAY_MODULE_TUBES)
   # example. If other modules come with their own
   # tools/converters/importers/etc, this is where those sohuld go.
   #
-  IF (OSPRAY_APPS_EXAMPLEVIEWER)#Must build example viewer app to build this one
+  #IF (OSPRAY_APPS_EXAMPLEVIEWER)#Must build example viewer app to build this one
    # ADD_SUBDIRECTORY(apps)
-  ENDIF()
+  #ENDIF()
 
 ENDIF (OSPRAY_MODULE_TUBES)
